@@ -1,0 +1,26 @@
+.text-display {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.04rem;
+    color: var(--muted);
+    word-break: break-word;
+}
+
+.text-display__char {
+    transition: color 120ms ease;
+}
+
+.text-display__char--correct {
+  color: var(--correct);
+}
+
+.text-display__char--wrong {
+  color: var(--wrong);
+  background: rgba(255, 107, 107, 0.15);
+  border-radius: 3px;
+}
+
+.text-display__char--current {
+  color: var(--text);
+  border-bottom: 2px solid var(--accent);
+}

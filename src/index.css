@@ -1,0 +1,25 @@
+:root {
+  --bg: #0f1020;
+  --surface: #1a1c2e;
+  --text: #e6e7ee;
+  --muted: #6b6f8a;
+  --accent: #7c5cff;
+  --correct: #4ade80;
+  --wrong: #ff6b6b;
+  --font-mono: "Fira Code", "Cascadia Code", Menlo, Consolas, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  display: grid;
+  place-items: center;
+}

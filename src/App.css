@@ -1,0 +1,18 @@
+.app {
+  width: min(720px, 90vw);
+  padding: 2.5rem;
+  background: var(--surface);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.app__title {
+  font-size: 2rem;
+  letter-spacing: -0.03rem;
+  color: var(--accent);
+}
+
+.app__subtitle {
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
