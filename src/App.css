@@ -16,3 +16,13 @@
   color: var(--muted);
   margin-bottom: 2rem;
 }
+.app__best {
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.app__best::before {
+  content: "★ ";
+  color: var(--accent);
+}
